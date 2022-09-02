@@ -26,12 +26,6 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://www.facebook.com/')
 
 WebUI.setText(findTestObject('Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'), 
-    'izzazain25@gjghghh')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'), 
-    'hTICxtIxRvKW/o9NgxLezA==')
-
-WebUI.setText(findTestObject('Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'), 
     'izzazain25@gjghghh.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'), 
