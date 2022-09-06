@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('id.satudikti.app')
 
-Mobile.tap(findTestObject('Object Repository/SIVIL/android.view.View'), 0)
+Mobile.tap(findTestObject('Navigation/beranda-nav'), 0)
 
 Mobile.tap(findTestObject('Object Repository/SIVIL/android.widget.ImageView'), 0)
 
