@@ -19,3 +19,33 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('id.satudikti.app', FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Navigation/beranda-nav'), 0)
+
+Mobile.tap(findTestObject('BerandaPage/SIVIL-icon'), 0)
+
+Mobile.verifyElementExist(findTestObject('SIVIL-/tittle-SIVIL-byaccID'), 0)
+
+Mobile.tap(findTestObject('SIVIL-/PergTinggi-toTap'), 0)
+
+Mobile.setText(findTestObject('SIVIL-/PergTinggi-toTxt'), 'universitas indonesia', 0)
+
+Mobile.delay(15, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('SIVIL-/PergTinggi-FirstOption-toTap'), 0)
+
+Mobile.tap(findTestObject('SIVIL-/Prodi-toTap'), 0)
+
+Mobile.setText(findTestObject('SIVIL-/Prodi-toTxt'), 'ilmu komputer', 0)
+
+Mobile.delay(15, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('SIVIL-/S1 Ilmu Komputer by acc ID'), 0)
+
+Mobile.tap(findTestObject('SIVIL-/Ijazah-toTap'), 0)
+
+Mobile.setText(findTestObject('SIVIL-/Ijazah-toTap'), '0035/S1-Fasilkom/Reg/2/2017', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('SIVIL-/Cari-btn-active'), 0)
+
